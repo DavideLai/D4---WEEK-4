@@ -1,0 +1,57 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    color: rgb(33, 117, 176);
+    font-weight: bold;
+}
+
+h2{
+  color: rgb(110, 108, 108);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#locationInput{
+    border-radius: 5px;
+    border: 2px solid rgb(34, 152, 236);
+}
+
+#titleInput{
+    border-radius: 5px;
+    border: 2px solid rgb(34, 152, 236);
+}
+
+#button{
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    width: auto;
+    color: white;
+    background-color: rgb(34, 152, 236);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+#button:hover{
+    background-color: white;
+    color:  rgb(34, 152, 236);
+    border: 1px solid  rgb(34, 152, 236);
+    transition: 0.15s;
+}
+
+ul{
+    list-style: none;
+    color: rgb(110, 108, 108);
+}
+
+#researchDiv{
+    margin-bottom: 20px;
+}
+
+#finalList{
+    color: gray;
+    font-weight: bold;
+}
